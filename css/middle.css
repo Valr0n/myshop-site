@@ -174,3 +174,152 @@
 .single-product-img:hover {
     transform: scale(1.02);
 }
+.contact-page {
+    padding: 100px 0;
+    background: white;
+}
+
+.contact-title {
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.contact-info-box {
+    background: #f8f8f8;
+    padding: 30px;
+    border-radius: 15px;
+    height: 100%;
+}
+
+.contact-info-box h3 {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.contact-info-box p {
+    font-size: 17px;
+    color: #444;
+    line-height: 1.8;
+}
+
+.contact-form {
+    background: #f8f8f8;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.contact-form .form-control {
+    border-radius: 10px;
+    padding: 12px;
+}
+.product-link {
+    color: #222;
+    text-decoration: none;
+}
+
+.product-link:hover {
+    color: #000;
+    text-decoration: underline;
+}
+.product-card {
+    transition: 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.category-card {
+    transition: 0.3s;
+}
+
+.category-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.product-img {
+    transition: 0.3s;
+}
+
+.product-img:hover {
+    transform: scale(1.03);
+}
+
+.single-product-img {
+    transition: 0.3s;
+}
+
+.single-product-img:hover {
+    transform: scale(1.02);
+}
+.btn {
+    transition: 0.3s;
+}
+@media (max-width: 768px) {
+    .hero {
+        padding: 50px 0;
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .hero p {
+        font-size: 16px;
+        margin: 0 auto 20px;
+    }
+
+    .page-title,
+    .contact-title,
+    .single-product-title {
+        font-size: 34px;
+        text-align: center;
+    }
+
+    .single-product-price {
+        font-size: 24px;
+    }
+
+    .single-product-img {
+        height: 320px;
+    }
+
+    .category-banner {
+        height: 220px;
+        margin-top: 20px;
+    }
+
+    .product-card h3 {
+        font-size: 18px;
+    }
+
+    .contact-page,
+    .product-page,
+    .products,
+    .categories,
+    .hero {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+@media (max-width: 768px) {
+    .site-header .d-flex {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-left: 0;
+    }
+
+    .logo {
+        text-align: center;
+    }
+}
