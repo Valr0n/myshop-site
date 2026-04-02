@@ -1,0 +1,23 @@
+.site-footer {
+    background: #111;
+    color: white;
+    padding: 40px 0;
+}
+
+.site-footer h4 {
+    margin-bottom: 15px;
+}
+
+.site-footer p,
+.site-footer a {
+    color: #ccc;
+    font-size: 14px;
+}
+
+.site-footer a {
+    text-decoration: none;
+}
+
+.site-footer a:hover {
+    color: white;
+}
