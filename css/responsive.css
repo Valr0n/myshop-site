@@ -1,0 +1,297 @@
+/* =========================
+   1920px і менше
+========================= */
+@media (max-width: 1920px) {
+    .container {
+        max-width: 1400px;
+    }
+}
+
+/* =========================
+   1600px і менше
+========================= */
+@media (max-width: 1600px) {
+    .container {
+        max-width: 1320px;
+    }
+
+    .hero h1,
+    .single-product-title,
+    .page-title,
+    .contact-title {
+        font-size: 44px;
+    }
+}
+
+/* =========================
+   1480px і менше
+========================= */
+@media (max-width: 1480px) {
+    .container {
+        max-width: 1200px;
+    }
+
+    .hero h1,
+    .single-product-title,
+    .page-title,
+    .contact-title {
+        font-size: 40px;
+    }
+
+    .single-product-img {
+        height: 420px;
+    }
+}
+
+/* =========================
+   1280px і менше
+========================= */
+@media (max-width: 1280px) {
+    .container {
+        max-width: 1100px;
+    }
+
+    .hero {
+        padding: 70px 0;
+    }
+
+    .hero h1,
+    .single-product-title,
+    .page-title,
+    .contact-title {
+        font-size: 36px;
+    }
+
+    .hero p,
+    .single-product-text,
+    .category-text,
+    .contact-info-box p {
+        font-size: 16px;
+    }
+
+    .single-product-img {
+        height: 380px;
+    }
+
+    .category-banner {
+        height: 260px;
+    }
+}
+
+/* =========================
+   1024px і менше
+   мобільне меню
+========================= */
+@media (max-width: 1024px) {
+    .site-header .container > .d-flex {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px !important;
+        padding-left: 0;
+    }
+
+    .hero,
+    .category-page,
+    .product-page,
+    .contact-page,
+    .products,
+    .categories {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .hero h1,
+    .single-product-title,
+    .page-title,
+    .contact-title {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .hero p,
+    .category-text,
+    .single-product-text {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .category-top,
+    .hero .row,
+    .product-page .row,
+    .contact-page .row {
+        row-gap: 30px;
+    }
+
+    .header-icons,
+    .site-header .header-icons {
+        justify-content: center;
+    }
+}
+
+/* =========================
+   iPad ~ 768px
+========================= */
+@media (max-width: 768px) {
+    .logo,
+    .logo a {
+        text-align: center;
+        font-size: 22px;
+    }
+
+    nav ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hero {
+        text-align: center;
+    }
+
+    .hero h1,
+    .single-product-title,
+    .page-title,
+    .contact-title {
+        font-size: 28px;
+    }
+
+    .hero p,
+    .single-product-text,
+    .category-text {
+        font-size: 15px;
+    }
+
+    .hero-img,
+    .category-banner,
+    .single-product-img {
+        height: auto;
+    }
+
+    .product-card h3,
+    .category-card h3 {
+        font-size: 20px;
+    }
+
+    .product-card,
+    .category-card,
+    .contact-form,
+    .contact-info-box,
+    .product-info-box {
+        padding: 20px;
+    }
+
+    .site-footer .row > div {
+        margin-bottom: 25px;
+        text-align: center;
+    }
+}
+
+/* =========================
+   iPhone X / 8 / 7 / 6
+========================= */
+@media (max-width: 576px) {
+    .site-header {
+        padding-bottom: 10px;
+    }
+
+    .site-header .container > .d-flex {
+        gap: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px !important;
+    }
+
+    .hero,
+    .category-page,
+    .product-page,
+    .contact-page,
+    .products,
+    .categories {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .hero h1,
+    .single-product-title,
+    .page-title,
+    .contact-title {
+        font-size: 24px;
+    }
+
+    .hero p,
+    .single-product-text,
+    .category-text,
+    .contact-info-box p,
+    .contact-form label,
+    .contact-form .form-control {
+        font-size: 14px;
+    }
+
+    .single-product-price {
+        font-size: 22px;
+    }
+
+    .btn,
+    .btn-outline-dark,
+    .btn-dark {
+        width: 100%;
+    }
+
+    .product-card h3,
+    .category-card h3 {
+        font-size: 18px;
+    }
+
+    .price {
+        font-size: 18px;
+    }
+}
+
+/* =========================
+   iPhone 4 ~ 320px
+========================= */
+@media (max-width: 320px) {
+    .hero h1,
+    .single-product-title,
+    .page-title,
+    .contact-title {
+        font-size: 20px;
+    }
+
+    .hero p,
+    .single-product-text,
+    .category-text,
+    .contact-info-box p {
+        font-size: 13px;
+    }
+
+    .product-card,
+    .category-card,
+    .contact-form,
+    .contact-info-box,
+    .product-info-box {
+        padding: 15px;
+    }
+
+    .product-card h3,
+    .category-card h3 {
+        font-size: 16px;
+    }
+
+    .price {
+        font-size: 16px;
+    }
+
+    nav ul {
+        gap: 8px !important;
+    }
+}
