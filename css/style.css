@@ -1,0 +1,343 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  color: #324950;
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  max-width: 1170px;
+}
+
+.stars {
+  color: #57984C;
+  font-size: 20px;
+  letter-spacing: 4px;
+  margin: 15px 0 25px;
+}
+
+.section-light {
+  background: #f6f6f6;
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+}
+body {
+  background-color: #eef7ea;
+}
+
+.tomato-hero {
+  width: 100%;
+  overflow: hidden;
+}
+
+.hero-bg-img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  display: block;
+}
+
+.product-card {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.product-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+}
+
+.product-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.product-link h5 {
+  margin-top: 12px;
+  color: #4f7d39;
+  font-weight: 700;
+}
+
+.product-link p {
+  color: #6d8f5a;
+  font-size: 14px;
+}
+body {
+  background-color: #f3eded;
+}
+
+.tomato-hero {
+  width: 100%;
+  height: 320px;
+  overflow: hidden;
+}
+
+.hero-bg-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.tomato-intro {
+  padding: 40px 0 20px;
+}
+
+.tomato-intro h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #324950;
+  margin-bottom: 20px;
+}
+
+.stars {
+  color: #57984c;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.tomato-intro p {
+  font-size: 17px;
+  line-height: 1.7;
+  color: #324950;
+  margin-bottom: 18px;
+}
+
+.note {
+  border-left: 4px solid #eb5757;
+  padding-left: 18px;
+  margin-top: 25px;
+  color: #324950;
+  font-size: 16px;
+}
+
+.tomato-info {
+  padding: 20px 0 30px;
+}
+
+.info-card {
+  background: #fff;
+  padding: 25px 20px;
+  margin-bottom: 20px;
+  min-height: 220px;
+}
+
+.info-card h4 {
+  color: #324950;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.info-card p {
+  color: #324950;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.note-line {
+  border-left: 4px solid #eb5757;
+  padding-left: 18px;
+  margin: 20px 0 30px;
+  color: #324950;
+  font-size: 16px;
+}
+
+.tomato-products {
+  padding-bottom: 40px;
+}
+
+.product-card {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.product-card img {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+  display: block;
+}
+
+.product-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  background: #fff;
+  padding-bottom: 12px;
+}
+
+.product-link h5 {
+  margin-top: 14px;
+  color: #57984c;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.product-link p {
+  color: #57984c;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.tomato-one-page {
+  background-color: #f3eded;
+  padding: 40px 0 60px;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 30px;
+  color: #57984c;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.tomato-one-info h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #324950;
+  margin-bottom: 10px;
+}
+
+.tomato-one-info h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #57984c;
+  margin-bottom: 20px;
+}
+
+.tomato-one-top {
+  margin-top: 10px;
+}
+
+.quality-box {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 25px 0 30px;
+}
+
+.quality-icon {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background: #f05a5a;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.quality-box p {
+  margin: 0;
+  color: #f05a5a;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.characteristics-block h3 {
+  color: #57984c;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.characteristics-block p {
+  color: #324950;
+  font-size: 17px;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.tomato-one-image-wrap {
+  text-align: center;
+}
+
+.tomato-one-image {
+  width: 100%;
+  max-width: 540px;
+  height: 360px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 25px;
+}
+
+.pdf-btn {
+  display: inline-block;
+  padding: 12px 30px;
+  border: 2px solid #57984c;
+  border-radius: 30px;
+  color: #57984c;
+  text-decoration: none;
+  background: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.pdf-btn:hover {
+  text-decoration: none;
+  color: #57984c;
+}
+
+.border-0 {
+  border: 2px solid #57984c !important;
+}
+
+.cart-table-wrap {
+  margin: 30px 0 40px;
+}
+
+.cart-thumb {
+  width: 80px;
+  height: 60px;
+  object-fit: cover;
+  display: block;
+}
+
+.remove-btn {
+  border: none;
+  background: transparent;
+  color: #d9534f;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.order-result {
+  background: #fff;
+  padding: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}

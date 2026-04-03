@@ -1,297 +1,331 @@
-/* =========================
-   1920px і менше
-========================= */
+/* 1920 */
 @media (max-width: 1920px) {
-    .container {
-        max-width: 1400px;
-    }
+  .container {
+    max-width: 1170px;
+  }
 }
 
-/* =========================
-   1600px і менше
-========================= */
+/* 1600 */
 @media (max-width: 1600px) {
-    .container {
-        max-width: 1320px;
-    }
-
-    .hero h1,
-    .single-product-title,
-    .page-title,
-    .contact-title {
-        font-size: 44px;
-    }
+  .hero-content h1,
+  .vision h2,
+  .mission h2,
+  .activities h2,
+  .tomato-intro h1,
+  .tomato-one-info h1,
+  .tomato-one-info h2,
+  .contact-section h2 {
+    font-size: 48px;
+  }
 }
 
-/* =========================
-   1480px і менше
-========================= */
+/* 1480 */
 @media (max-width: 1480px) {
-    .container {
-        max-width: 1200px;
-    }
+  .main-nav ul {
+    gap: 18px;
+  }
 
-    .hero h1,
-    .single-product-title,
-    .page-title,
-    .contact-title {
-        font-size: 40px;
-    }
+  .main-nav a {
+    font-size: 16px;
+  }
 
-    .single-product-img {
-        height: 420px;
-    }
+  .search-box {
+    width: 280px;
+  }
+
+  .hero-content h1 {
+    font-size: 52px;
+  }
 }
 
-/* =========================
-   1280px і менше
-========================= */
+/* 1280 */
 @media (max-width: 1280px) {
-    .container {
-        max-width: 1100px;
-    }
+  .hero {
+    min-height: 700px;
+  }
 
-    .hero {
-        padding: 70px 0;
-    }
+  .hero-content {
+    padding-top: 120px;
+  }
 
-    .hero h1,
-    .single-product-title,
-    .page-title,
-    .contact-title {
-        font-size: 36px;
-    }
+  .hero-content h1 {
+    font-size: 44px;
+  }
 
-    .hero p,
-    .single-product-text,
-    .category-text,
-    .contact-info-box p {
-        font-size: 16px;
-    }
+  .vision h2,
+  .mission h2,
+  .activities h2,
+  .tomato-intro h1,
+  .tomato-one-info h1,
+  .tomato-one-info h2,
+  .contact-section h2 {
+    font-size: 40px;
+  }
 
-    .single-product-img {
-        height: 380px;
-    }
+  .activity-card h3 {
+    font-size: 24px;
+  }
 
-    .category-banner {
-        height: 260px;
-    }
+  .footer-menu {
+    gap: 18px;
+  }
+
+  .footer-menu a {
+    font-size: 13px;
+  }
 }
 
-/* =========================
-   1024px і менше
-   мобільне меню
-========================= */
+/* 1024 і менше — мобільне меню */
 @media (max-width: 1024px) {
-    .site-header .container > .d-flex {
-        flex-direction: column;
-        gap: 15px;
-    }
+  .header-top {
+    flex-direction: column;
+    align-items: center !important;
+    gap: 20px;
+  }
 
-    nav ul {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 20px !important;
-        padding-left: 0;
-    }
+  .header-right {
+    width: 100%;
+    align-items: center;
+  }
 
-    .hero,
-    .category-page,
-    .product-page,
-    .contact-page,
-    .products,
-    .categories {
-        padding-top: 60px;
-        padding-bottom: 60px;
-    }
+  .search-box {
+    width: 100%;
+    max-width: 360px;
+    margin-bottom: 20px;
+  }
 
-    .hero h1,
-    .single-product-title,
-    .page-title,
-    .contact-title {
-        font-size: 32px;
-        text-align: center;
-    }
+  .main-nav {
+    width: 100%;
+  }
 
-    .hero p,
-    .category-text,
-    .single-product-text {
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-    }
+  .main-nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 14px;
+  }
 
-    .category-top,
-    .hero .row,
-    .product-page .row,
-    .contact-page .row {
-        row-gap: 30px;
-    }
+  .main-nav a {
+    font-size: 15px;
+  }
 
-    .header-icons,
-    .site-header .header-icons {
-        justify-content: center;
-    }
+  .hero {
+    min-height: 620px;
+  }
+
+  .hero-content h1 {
+    font-size: 38px;
+  }
+
+  .vision,
+  .mission,
+  .activities,
+  .tomato-intro,
+  .tomato-info,
+  .tomato-products,
+  .contact-section {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .vision .row,
+  .mission .row,
+  .tomato-one-top,
+  .tomato-details-row {
+    row-gap: 30px;
+  }
+
+  .tomato-one-info h1,
+  .tomato-one-info h2 {
+    max-width: 100%;
+  }
+
+  .contact-bottom {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .btn-send {
+    width: 100%;
+  }
 }
 
-/* =========================
-   iPad ~ 768px
-========================= */
+/* iPad */
 @media (max-width: 768px) {
-    .logo,
-    .logo a {
-        text-align: center;
-        font-size: 22px;
-    }
+  .hero {
+    min-height: 520px;
+  }
 
-    nav ul {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
+  .hero-content {
+    padding-top: 80px;
+  }
 
-    .hero {
-        text-align: center;
-    }
+  .hero-content h1 {
+    font-size: 32px;
+  }
 
-    .hero h1,
-    .single-product-title,
-    .page-title,
-    .contact-title {
-        font-size: 28px;
-    }
+  .category-item {
+    margin-bottom: 25px;
+  }
 
-    .hero p,
-    .single-product-text,
-    .category-text {
-        font-size: 15px;
-    }
+  .category-item p {
+    font-size: 16px;
+  }
 
-    .hero-img,
-    .category-banner,
-    .single-product-img {
-        height: auto;
-    }
+  .vision h2,
+  .mission h2,
+  .activities h2,
+  .tomato-intro h1,
+  .tomato-one-info h1,
+  .tomato-one-info h2,
+  .contact-section h2 {
+    font-size: 32px;
+  }
 
-    .product-card h3,
-    .category-card h3 {
-        font-size: 20px;
-    }
+  .vision p,
+  .mission p,
+  .activity-card p,
+  .tomato-intro p,
+  .detail-box li,
+  .detail-box p,
+  .contact-section label,
+  .contact-address p {
+    font-size: 15px;
+  }
 
-    .product-card,
-    .category-card,
-    .contact-form,
-    .contact-info-box,
-    .product-info-box {
-        padding: 20px;
-    }
+  .activity-card img {
+    height: 120px;
+  }
 
-    .site-footer .row > div {
-        margin-bottom: 25px;
-        text-align: center;
-    }
+  .tomato-one-image {
+    height: 280px;
+  }
+
+  .quality-box {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-row {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer-menu {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .socials {
+    justify-content: center;
+  }
 }
 
-/* =========================
-   iPhone X / 8 / 7 / 6
-========================= */
-@media (max-width: 576px) {
-    .site-header {
-        padding-bottom: 10px;
-    }
+/* iPhone X / 8 / 7 / 6 */
+@media (max-width: 480px) {
+  .logo img {
+    width: 150px;
+  }
 
-    .site-header .container > .d-flex {
-        gap: 10px;
-    }
+  .search-box input {
+    font-size: 14px;
+  }
 
-    nav ul {
-        flex-direction: column;
-        align-items: center;
-        gap: 10px !important;
-    }
+  .main-nav ul {
+    gap: 10px;
+  }
 
-    .hero,
-    .category-page,
-    .product-page,
-    .contact-page,
-    .products,
-    .categories {
-        padding-top: 40px;
-        padding-bottom: 40px;
-    }
+  .main-nav a {
+    font-size: 14px;
+  }
 
-    .hero h1,
-    .single-product-title,
-    .page-title,
-    .contact-title {
-        font-size: 24px;
-    }
+  .hero {
+    min-height: 420px;
+  }
 
-    .hero p,
-    .single-product-text,
-    .category-text,
-    .contact-info-box p,
-    .contact-form label,
-    .contact-form .form-control {
-        font-size: 14px;
-    }
+  .hero-content h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
 
-    .single-product-price {
-        font-size: 22px;
-    }
+  .hero-btn {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
 
-    .btn,
-    .btn-outline-dark,
-    .btn-dark {
-        width: 100%;
-    }
+  .vision h2,
+  .mission h2,
+  .activities h2,
+  .tomato-intro h1,
+  .tomato-one-info h1,
+  .tomato-one-info h2,
+  .contact-section h2 {
+    font-size: 26px;
+  }
 
-    .product-card h3,
-    .category-card h3 {
-        font-size: 18px;
-    }
+  .activity-card h3,
+  .characteristics-block h3,
+  .contact-address h4 {
+    font-size: 22px;
+  }
 
-    .price {
-        font-size: 18px;
-    }
+  .product-card img {
+    height: 180px;
+  }
+
+  .tomato-one-image {
+    height: 220px;
+  }
+
+  .quality-icon {
+    width: 60px;
+    height: 60px;
+    font-size: 22px;
+  }
+
+  .quality-box p {
+    font-size: 16px;
+  }
+
+  .captcha {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .captcha input {
+    max-width: 100%;
+  }
 }
 
-/* =========================
-   iPhone 4 ~ 320px
-========================= */
+/* iPhone 4 */
 @media (max-width: 320px) {
-    .hero h1,
-    .single-product-title,
-    .page-title,
-    .contact-title {
-        font-size: 20px;
-    }
+  .hero-content h1,
+  .vision h2,
+  .mission h2,
+  .activities h2,
+  .tomato-intro h1,
+  .tomato-one-info h1,
+  .tomato-one-info h2,
+  .contact-section h2 {
+    font-size: 22px;
+  }
 
-    .hero p,
-    .single-product-text,
-    .category-text,
-    .contact-info-box p {
-        font-size: 13px;
-    }
+  .main-nav a,
+  .footer-menu a,
+  .product-card p,
+  .contact-section label,
+  .contact-address p {
+    font-size: 12px;
+  }
 
-    .product-card,
-    .category-card,
-    .contact-form,
-    .contact-info-box,
-    .product-info-box {
-        padding: 15px;
-    }
+  .hero-btn,
+  .btn-send,
+  .pdf-btn {
+    font-size: 12px;
+    padding: 10px 16px;
+  }
 
-    .product-card h3,
-    .category-card h3 {
-        font-size: 16px;
-    }
-
-    .price {
-        font-size: 16px;
-    }
-
-    nav ul {
-        gap: 8px !important;
-    }
+  .product-card img,
+  .tomato-one-image {
+    height: 160px;
+  }
 }

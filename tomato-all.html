@@ -1,175 +1,169 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=320, initial-scale=1.0">
-    <title>Tomato all</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cucumber all</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/middle.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/middle.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+  <script src="js/main.js" defer></script>
 </head>
 <body>
+  <div id="app">
+    <header class="site-header tomato-page-header">
+      <div class="container">
+        <div class="header-top d-flex justify-content-between align-items-start">
+          <div class="logo">
+            <img src="images/logo.png" alt="Agridera logo">
+          </div>
 
-    <header class="site-header">
-        <div class="container">
-            <div class="d-flex justify-content-between align-items-center py-3">
-
-                <div class="logo">
-                    <a href="index.html">MyShop</a>
-                </div>
-
-               <nav>
-    <ul class="d-flex gap-4 m-0">
-        <li><a href="index.html">Основне</a></li>
-        <li><a href="tomato-all.html">Товари</a></li>
-        <li><a href="contact.html">Контакти</a></li>
-    </ul>
-</nav>
-
-                <div>
-                    🔍 🛒
-                </div>
+          <div class="header-right">
+            <div class="search-box">
+              <input type="text" placeholder="Search">
+              <span class="search-icon">⌕</span>
             </div>
+
+            <nav class="main-nav">
+              <ul class="d-flex">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Company Profile</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">R & D</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
         </div>
+      </div>
     </header>
 
-    <section class="category-page">
-        <div class="container">
-            <h1 class="page-title">Асортимент</h1>
-
-            <div class="category-top row align-items-center">
-                <div class="col-md-6">
-                    <p class="category-text">
-                        Обирайте найкращі товари категорії MyShop.
-                        Якісні, стильні та сучасні рішення для вашого дому.
-                    </p>
-                </div>
-                <div class="col-md-6">
-                    <img src="images/hero.jpg" class="category-banner">
-                </div>
-            </div>
-        </div>
+    <section class="tomato-hero">
+      <img src="img/cucumbers-bg.jpg" alt="Cucumbers background" class="hero-bg-img">
     </section>
 
-    <section class="products">
-        <div class="container">
-            <h2 class="text-center mb-5">Товари категорії</h2>
+    <section class="tomato-intro">
+      <div class="container text-center">
+        <h1>Agridera Fresh Market Cucumbers</h1>
+        <div class="stars">*****</div>
 
-            <div class="row g-4">
+        <p>
+          Agridera aims to be one of the world’s leading companies in the breeding,
+          production, and marketing of vegetable seeds. We invest intensively in research
+          and development to provide solutions to growers and consumers in numerous
+          countries around the world.
+        </p>
 
-                <div class="col-md-3">
-    <div class="product-card">
-        <a href="tomato-one.html">
-            <img src="images/product1.jpg" class="product-img" alt="Крісло Loft">
-        </a>
-        <h3><a href="tomato-one.html" class="product-link">Крісло Loft</a></h3>
-        <p class="price">320 грн</p>
-        <button class="btn btn-outline-dark w-100">Купити</button>
-    </div>
-</div>
+        <p>
+          Fresh market cucumber varieties are selected for early maturity, stable yield,
+          attractive appearance, disease resistance and excellent taste qualities. Special
+          attention is given to adaptability in different growing conditions.
+        </p>
 
-                <div class="col-md-3">
-                    <div class="product-card">
-                        <img src="images/product2.jpg" class="product-img" alt="Товар 2">
-                        <h3>Настільна лампа</h3>
-                        <p class="price">280 грн</p>
-                        <button class="btn btn-outline-dark w-100">Купити</button>
-                    </div>
-                </div>
+        <p>
+          In terms of horticultural traits, breeding is focused on fruit uniformity,
+          насыщенный green color, crisp texture, transportability, shelf life and strong
+          plant vigor for open field and greenhouse production.
+        </p>
 
-                <div class="col-md-3">
-                    <div class="product-card">
-                        <img src="images/product3.jpg" class="product-img" alt="Товар 3">
-                        <h3><h3>Декоративна ваза</h3>
-                        <p class="price">410 грн</p>
-                        <button class="btn btn-outline-dark w-100">Купити</button>
-                    </div>
-                </div>
-
-                <div class="col-md-3">
-                    <div class="product-card">
-                        <img src="images/product4.jpg" class="product-img" alt="Товар 4">
-                        <h3>Плед Soft</h3>
-                        <p class="price">350 грн</p>
-                        <button class="btn btn-outline-dark w-100">Купити</button>
-                    </div>
-                </div>
-
-                <div class="col-md-3">
-                    <div class="product-card">
-                        <img src="images/product1.jpg" class="product-img" alt="Товар 5">
-                    <h3>Крісло Modern</h3>
-                        <p class="price">390 грн</p>
-                        <button class="btn btn-outline-dark w-100">Купити</button>
-                    </div>
-                </div>
-
-                <div class="col-md-3">
-                    <div class="product-card">
-                        <img src="images/product2.jpg" class="product-img" alt="Товар 6">
-                        <h3>Лампа Black</h3>
-                        <p class="price">500 грн</p>
-                        <button class="btn btn-outline-dark w-100">Купити</button>
-                    </div>
-                </div>
-
-                <div class="col-md-3">
-                    <div class="product-card">
-                        <img src="images/product3.jpg" class="product-img" alt="Товар 7">
-                        <h3>Ваза Home</h3>
-                        <p class="price">430 грн</p>
-                        <button class="btn btn-outline-dark w-100">Купити</button>
-                    </div>
-                </div>
-
-                <div class="col-md-3">
-                    <div class="product-card">
-                        <img src="images/product4.jpg" class="product-img" alt="Товар 8">
-                        <h3>Плед Cozy</h3>
-                        <p class="price">290 грн</p>
-                        <button class="btn btn-outline-dark w-100">Купити</button>
-                    </div>
-                </div>
-
-            </div>
+        <div class="note">
+          Agridera cucumber breeding programs are focused on productive hybrids for
+          greenhouse cultivation, open-field production and universal use for fresh
+          consumption and preservation.
         </div>
+      </div>
+    </section>
+
+    <section class="tomato-info">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 info-card">
+            <h4>Greenhouse Cucumber Program</h4>
+            <p>
+              This segment includes vigorous and early cucumber hybrids intended for greenhouse
+              production with stable fruit setting, uniform shape and high productivity.
+            </p>
+          </div>
+
+          <div class="col-lg-4 info-card">
+            <h4>Open-field Cucumber Hybrids</h4>
+            <p>
+              These hybrids are adapted for open-field growing conditions and demonstrate
+              reliable yield, stress resistance and excellent fruit quality.
+            </p>
+          </div>
+
+          <div class="col-lg-4 info-card">
+            <h4>Universal Purpose Cucumbers</h4>
+            <p>
+              This breeding direction combines fresh market quality with suitability for
+              pickling and preservation, making the products versatile for consumers.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <div class="note-line">
+        Agridera operates through international and local distributors around the world.
+      </div>
+    </div>
+
+    <section class="tomato-products">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 product-card" v-for="item in products" :key="item.id">
+            <a v-bind:href="'tomato-one.html#' + item.id" class="product-link">
+              <img :src="item.image" :alt="item.title">
+              <h5>{{ item.title }}</h5>
+              <p>{{ item.short_text }}</p>
+            </a>
+          </div>
+        </div>
+      </div>
     </section>
 
     <footer class="site-footer">
+      <div class="footer-top">
         <div class="container">
-            <div class="row">
+          <div class="footer-row">
+            <ul class="footer-menu">
+              <li><a href="#">PROFILE</a></li>
+              <li><a href="#">MANAGEMENT</a></li>
+              <li><a href="#">PRODUCTS</a></li>
+              <li><a href="#">R&D</a></li>
+              <li><a href="#">LINKS</a></li>
+              <li><a href="#">SITEMAP</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+            </ul>
 
-                <div class="col-md-4">
-                    <h4>MyShop</h4>
-                    <p>Стильні товари для дому та комфорту.</p>
-                </div>
-
-                <div class="col-md-4">
-                    <h4>Контакти</h4>
-                    <p>м. Запоріжжя</p>
-                    <p>+380 99 123 45 67</p>
-                </div>
-
-                <div class="col-md-4">
-                    <h4>Меню</h4>
-                    <ul>
-                        <li><a href="index.html">Головна</a></li>
-                        <li><a href="tomato-all.html">Каталог</a></li>
-                        <li><a href="#">Акції</a></li>
-                    </ul>
-                </div>
-
+            <div class="socials">
+              <a href="#">in</a>
+              <a href="#">ig</a>
+              <a href="#">yt</a>
+              <a href="#">tw</a>
+              <a href="#">fb</a>
             </div>
-
-            <div class="text-center mt-4">
-                <p>© 2026 MyShop</p>
-            </div>
+          </div>
         </div>
-    </footer>
+      </div>
 
+      <div class="footer-bottom">
+        <div class="container">
+          <p>AGRIDERA SEEDS & AGRICULTURE LTD. © 2020</p>
+        </div>
+      </div>
+    </footer>
+  </div>
 </body>
 </html>
